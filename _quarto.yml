@@ -12,7 +12,6 @@ website:
   page-navigation: false
   search: false
 
-  # Este es el pie de página (footer) al estilo Masiello, adaptado a EpiGest
   page-footer: 
     background: "#F6F5F3"
     center: "© 2026 Epigest-Talca" 
@@ -40,9 +39,9 @@ format:
     theme: 
       - styles/custom.scss
       - yeti
-    css: styles.css         # <--- Clave: Mantiene vivas tus cuadrículas de Instagram y Equipo
-    mainfont: Open Sans # probar otros estilos de letra como: 
-    toc: false              # <--- Desactivado para que no salga un índice al lado
+    css: styles.css   
+    mainfont: Open Sans  
+    toc: false          
     page-layout: full
     link-external-newwindow: true
     smooth-scroll: true

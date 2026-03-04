@@ -9,8 +9,6 @@ format:
 ```{=html}
 <style>
 
-/* --- SOLUCIÓN PARA ELIMINAR LA CADENA NARANJA --- */
-/* Esto fuerza a que el icono de enlace desaparezca en todos lados */
 .anchorjs-link {
   display: none !important;
 }
