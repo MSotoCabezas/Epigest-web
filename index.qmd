@@ -1,25 +1,20 @@
 ---
-title: "Bienvenidos a EpiGest Talca"
-image: images/logos/portada2.png       # <--- 1. AQUÍ PONES LA RUTA DE TU FOTO
-about:
-  template: jolla
-  image-shape: rectangle           # <--- 2. ELIGE: 'round' (círculo) o 'rectangle' (cuadrado)
-  image-width: 20em             # <--- 3. AJUSTA EL TAMAÑO (más grande o pequeño)
-  links:
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/epigest.talca/
-    - icon: envelope
-      text: Contacto
-      href: "mailto:epigestalca@utalca.cl"
+title: ""
+page-layout: full
 ---
-# Estudio de Cohorte EpiGest
 
-**Investigando el impacto del ambiente en el inicio de la vida.**
+::: {.fondo-epigest style="text-align: center;"}
+<div class="welcome-headline">Estudio de Cohorte Epigest</div>
+<div class="welcome-subheadline" style="margin-top: 10px;">Investigando el impacto del ambiente en el inicio de la vida</div>
 
-El **Estudio de Cohorte de Epidemiología Gestacional (EpiGest)** es un proyecto de investigación pionero en Chile, que busca comprender cómo las condiciones ambientales a las que se expone una madre durante el embarazo influyen en su salud y en el desarrollo de su bebé.
+<br>
 
----
+<p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+El <strong>Estudio de Cohorte de Epidemiología Gestacional (Epigest-Talca)</strong> es un proyecto de investigación pionero en Chile, que busca comprender cómo las condiciones ambientales a las que se expone una madre durante el embarazo influyen en su salud y en el desarrollo de su bebé.
+</p>
+:::
+
+<br>
 
 ::: {.callout-note}
 ## Participación
@@ -32,26 +27,3 @@ El reclutamiento de voluntarias se realiza en colaboración con los Centros de S
   </a>
 </div>
 :::
-
-<h2>Novedades en Instagram</h2>
-
-<div class="insta-grid">
-
-  <a href="https://www.instagram.com/p/DTJmXJ8jT6R/?img_index=1" target="_blank" class="insta-item">
-      <img src="images/instagram/post1.png" alt="Descripción post 1">
-  </a>
-
-  <a href="https://www.instagram.com/p/DTxzhTZjsGJ/?img_index=1" target="_blank" class="insta-item">
-      <img src="images/instagram/post2.png" alt="Descripción post 2">
-  </a>
-
-  <a href="https://www.instagram.com/p/DTlrdDgEWks/" target="_blank" class="insta-item">
-      <img src="images/instagram/post3.png" alt="Descripción post 3">
-  </a>
-
-  </div>
-<div class="insta-button-center">
-  <a href="https://www.instagram.com/epigest.talca/" target="_blank" class="btn-instagram">
-    <i class="bi bi-instagram"></i> Síguenos en Instagram
-  </a>
-</div>

@@ -4,31 +4,47 @@ project:
 
 website:
   title: "EpiGest Talca"
-  #cookie-consent:
-  # type: express  # O 'implied'
-   # style: simple
-  #  palette: light
-  #  language: es   # Pone los botones en español automáticamente
-  google-analytics: "G-R08N7FRS3P" # <-- Tu ID
-  description: "Estudio de Cohorte sobre el impacto de la temperatura en el embarazo"
+  repo-url: https://github.com/MSotoCabezas/Epigest-web/blob/main/_quarto.yml
+  description: "Estudio de Cohorte sobre el impacto del ambiente en el embarazo"
+  favicon: images/logos/logosinletras.png
+  google-analytics: "G-R08N7FRS3P"
+  
+  page-navigation: false
+  search: false
+
+  # Este es el pie de página (footer) al estilo Masiello, adaptado a EpiGest
+  page-footer: 
+    background: "#F6F5F3"
+    center: "© 2026 Epigest-Talca" 
+  
   navbar:
-    logo: "images/logos/logosinletras.png" # <--- AQUÍ VA TU LOGO (asegúrate que el nombre coincida)
-    background: "#5D3F6D"           # <--- COLOR DE FONDO (Un morado sobrio tipo académico)
-    foreground: "light"
+    title: false
+    logo: "images/logos/logo.png"
+    background: "#5D3F6D"
+    logo-alt: "Logo EpiGest Talca"
     left:
       - href: index.qmd
         text: Inicio
       - href: equipo.qmd
         text: Equipo
+      - href: novedades.qmd
+        text: Noticias
     right:
       - icon: instagram
         href: https://www.instagram.com/epigest.talca/
       - icon: envelope
-        href: "mailto:msotocabezas@gmail.com"
+        href: "mailto:epigestalca@utalca.cl"
 
 format:
   html:
-    theme: Journal
-    css: styles.css
-    toc: false          # <--- Cambia esto de true a false
-    page-layout: full   # <--- Opcional: si quieres que todo el sitio sea ancho
+    theme: 
+      - styles/custom.scss
+      - yeti
+    css: styles.css         # <--- Clave: Mantiene vivas tus cuadrículas de Instagram y Equipo
+    mainfont: Open Sans # probar otros estilos de letra como: 
+    toc: false              # <--- Desactivado para que no salga un índice al lado
+    page-layout: full
+    link-external-newwindow: true
+    smooth-scroll: true
+    resources:
+      - images
