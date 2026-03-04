@@ -3,14 +3,15 @@ title: ""
 page-layout: full
 ---
 
-::: {.fondo-epigest style="text-align: center;"}
-<div class="welcome-headline">Estudio de Cohorte Epigest</div>
-<div class="welcome-subheadline" style="margin-top: 10px;">Investigando el impacto del ambiente en el inicio de la vida</div>
+::: {.banner-hero}
+:::
 
-<br>
+::: {.home-content}
 
-<p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-El <strong>Estudio de Cohorte de Epidemiología Gestacional (Epigest-Talca)</strong> es un proyecto de investigación pionero en Chile, que busca comprender cómo las condiciones ambientales a las que se expone una madre durante el embarazo influyen en su salud y en el desarrollo de su bebé.
+<div class="home-subtitle">Impacto del ambiente en el inicio de la vida</div>
+
+<p style="font-size: 1.3rem; line-height: 1.6; color: #444;">
+El **Estudio de Cohorte de Epidemiología Gestacional (EpiGest)** es un proyecto de investigación pionero en Chile, que busca comprender cómo las condiciones ambientales a las que se expone una madre durante el embarazo influyen en su salud y en el desarrollo de su bebé.
 </p>
 :::
 
