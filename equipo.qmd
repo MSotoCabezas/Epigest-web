@@ -1,0 +1,274 @@
+---
+title: "Conoce al equipo"
+format:
+  html:
+    css: styles.css
+    anchor-sections: false
+---
+
+```{=html}
+<style>
+
+/* --- SOLUCIÓN PARA ELIMINAR LA CADENA NARANJA --- */
+/* Esto fuerza a que el icono de enlace desaparezca en todos lados */
+.anchorjs-link {
+  display: none !important;
+}
+
+/* Estilos para la cuadrícula del equipo */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+/* Estilo de la tarjeta individual */
+.team-card {
+  background: #fff;
+  padding: 30px 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrado horizontal */
+  text-align: center;  /* Texto centrado */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Estilo de la imagen CIRCULAR */
+.team-card img {
+  width: 160px;        /* Tamaño fijo */
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;  /* Círculo perfecto */
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color: #f8f9fa;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tipografía */
+.member-name {
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 1.15em;
+  margin: 10px 0 5px 0;
+}
+
+
+.member-inst {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px; /* Espacio antes del botón */
+  font-style: italic;
+}
+
+/* Nuevo Botón de Perfil (LinkedIn/ORCID) */
+.profile-btn {
+  background-color: #0077b5; /* Azul LinkedIn */
+  color: #fff !important;
+  padding: 8px 16px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px; /* Botón tipo cápsula */
+  transition: background-color 0.2s;
+  display: inline-block;
+}
+
+.profile-btn:hover {
+  background-color: #005582;
+  text-decoration: none;
+}
+
+</style>
+```
+
+
+<div class="team-grid">
+
+<div class="team-card">
+<img src="images/equipo/maria_elisa.png" alt="María Elisa Quinteros">
+<h3 class="member-name">María Elisa Quinteros Cáceres, PhD</h3>
+<p class="member-inst">Epidemióloga Ambiental</p>
+<a href="https://orcid.org/0000-0001-8815-1513" class="profile-btn" target="_blank">ORCID</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/felipe_gallardo.png" alt="Felipe Gallardo">
+<h3 class="member-name">Felipe Gallardo Altamirano, MSc</h3>
+<p class="member-inst">Ingeniero Civil Ambiental</p>
+<a href="https://cl.linkedin.com/in/felipe-gallardo-altamirano-7406b4271" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/felipe_alarcon.png" alt="Felipe Alarcón">
+<h3 class="member-name">Felipe Alarcón Cárcamo</h3>
+<p class="member-inst">Estudiante de Ingeniería Ambiental </p>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/pamela_cuevas.png" alt="Pamela Cuevas">
+<h3 class="member-name">Pamela Cuevas Alcayaga, MSc</h3>
+<p class="member-inst">Matrona</p>
+<a href="https://cl.linkedin.com/in/pamela-l-cuevas-alcayaga-a1073b263" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images\equipo\loreto_nunez.png" alt="Loreto Nuñez">
+<h3 class="member-name">Loreto Núñez Franz, MSc</h3>
+<p class="member-inst">Epidemióloga</p>
+<a href="https://cl.linkedin.com/in/maria-loreto-nu%C3%B1ez-franz-667143191" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images\equipo\raul_nunez.png" alt="Raul Núñez">
+<h3 class="member-name">Raul Núñez Navarro</h3>
+<p class="member-inst">Diseñador Gráfico</p>
+<a href="https://cl.linkedin.com/in/raulnuneznavarro" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images\equipo\monserrat_morales.png" alt="Monserrat Morales Gonzalez">
+<h3 class="member-name">Monserrat Morales Gonzalez, MSc</h3>
+<p class="member-inst">Nutricionista</p>
+<a href="https://cl.linkedin.com/in/monserrat-morales-gonzalez-308155379" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/carmen_briones.png" alt="M Carmen Briones">
+<h3 class="member-name">M° Carmen Briones Lorca, MSc</h3>
+<p class="member-inst">Matrona</p>
+</div>
+
+<div class="team-card">
+<img src="images\equipo\alicia_parada.png" alt="Alicia Parada">
+<h3 class="member-name">Alicia Parada Navarro, MSc</h3>
+<p class="member-inst">Matrona</p>
+</div>
+
+<div class="team-card">
+<img src="images\equipo\claudio_valenzuela.png" alt="Claudio Valenzuela Monsálvez">
+<h3 class="member-name">Claudio Valenzuela Monsálvez, MSc</h3>
+<p class="member-inst">Matrón</p>
+</div>
+
+
+<div class="team-card">
+<img src="images/equipo/miguel_vasquez.png" alt="Miguel Vásquez">
+<h3 class="member-name">Miguel Vásquez Campos, MSc</h3>
+<p class="member-inst">Fonoaudiólogo</p>
+<a href="https://cl.linkedin.com/in/miguel-v%C3%A1squez-campos-921695337" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+
+<div class="team-card">
+<img src="images/equipo/daniela_quilaqueo.png" alt="Daniela Quilaqueo">
+<h3 class="member-name">Daniela Quilaqueo Sáez, MSc</h3>
+<p class="member-inst">Fonoaudióloga</p>
+<a href="https://cl.linkedin.com/in/daniela-quilaqueo-s%C3%A1ez-15a9975b" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/joselyn_sothers.png" alt="Joselyn Sothers">
+<h3 class="member-name">Joselyn Sothers Ruiz</h3>
+<p class="member-inst">Matrona</p>
+<a href="https://cl.linkedin.com/in/mat-joselyn-sothers" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/rodrigo_torres.png" alt="Rogrigo Torres">
+<h3 class="member-name">Rogrigo Torres </h3>
+<p class="member-inst">Estudiante Técnologia Medica</p>
+</div>
+
+
+<div class="team-card">
+<img src="images/equipo/gloria_icaza.png" alt="Gloria Icaza">
+<h3 class="member-name">Gloria Icaza Noguera, PhD</h3>
+<p class="member-role">Estadística</p>
+<a href="https://cl.linkedin.com/in/mar%C3%ADa-gloria-icaza-noguera-76066b24" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/gabriel_olguin.png" alt="Gabriel Olguín">
+<h3 class="member-name">Gabriel Olguín Orellana, PhD</h3>
+<p class="member-role">Bioinformático</p>
+<a href="https://cl.linkedin.com/in/gaboslab" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/martin_soto.png" alt="Martín Soto">
+<h3 class="member-name">Martín Soto Cabezas</h3>
+<p class="member-role">Ingeniero en Estadística</p>
+<a href="https://cl.linkedin.com/in/mart%C3%ADn-soto-cabezas-39b40429b?trk=people-guest_people_search-card" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+
+
+<div class="team-card">
+<img src="images/equipo/felipe_varas.png" alt="Felipe Varas">
+<h3 class="member-name">Felipe Varas Concha, PhD</h3>
+<p class="member-role">Ingeniero</p>
+<a href="https://cl.linkedin.com/in/felipe-gallardo-altamirano-7406b4271" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/jose_alarcon.png" alt="José Alarcón">
+<h3 class="member-name">José Alarcón Alarcón, PhD (C)</h3>
+<p class="member-role">Estudiante Doctorado</p>
+<a href="https://cl.linkedin.com/in/jos%C3%A9-alarc%C3%B3n-alarc%C3%B3n" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/erika_retamal.png" alt="Erika Retamal">
+<h3 class="member-name">Erika Retamal Contreras, MSc</h3>
+<p class="member-role">Epidemióloga</p>
+<a href="https://cl.linkedin.com/in/erika-roxana-retamal-contreras-ab482828" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/roxana_orrego.png" alt="Roxana Orrego">
+<h3 class="member-name">Roxana Orrego Castillo, MSc</h3>
+<p class="member-role">Tecnóloga Médica</p>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/marcela_vasquez.png" alt="Marcela Vásquez">
+<h3 class="member-name">Marcela Vásquez Rojas, MSc</h3>
+<p class="member-role">Tecnóloga Médica</p>
+<a href="https://cl.linkedin.com/in/marcela-v%C3%A1squez-rojas-998686173" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/marcela_marin.png" alt="Marcela Marin">
+<h3 class="member-name">Marcela Marin Salgado, MSc</h3>
+<p class="member-role">Tecnóloga Médica</p>
+</div>
+
+
+<div class="team-card">
+<img src="images/equipo/payam_dadvand.png" alt="Payam Dadvand">
+<h3 class="member-name">Payam Dadvand, MD PhD</h3>
+<p class="member-role">Epidemiólogo Ambiental</p>
+<p class="member-inst">ISGlobal</p>
+<a href="https://orcid.org/0000-0002-2325-1027" class="profile-btn" target="_blank">ORCID</a>
+</div>
+
+<div class="team-card">
+<img src="images/equipo/suzanne_bartington.png" alt="Suzanne Bartington">
+<h3 class="member-name">Suzanne Bartington, PhD</h3>
+<p class="member-role">Epidemióloga</p>
+<p class="member-inst">University of Birmingham</p>
+<a href="https://uk.linkedin.com/in/suzannebartington" class="profile-btn" target="_blank">LinkedIn</a>
+</div>
+
+
+</div>

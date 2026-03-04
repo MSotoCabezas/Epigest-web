@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "EpiGest Talca"
+  #cookie-consent:
+  # type: express  # O 'implied'
+   # style: simple
+  #  palette: light
+  #  language: es   # Pone los botones en español automáticamente
+  google-analytics: "G-R08N7FRS3P" # <-- Tu ID
+  description: "Estudio de Cohorte sobre el impacto de la temperatura en el embarazo"
+  navbar:
+    logo: "images/logos/logosinletras.png" # <--- AQUÍ VA TU LOGO (asegúrate que el nombre coincida)
+    background: "#5D3F6D"           # <--- COLOR DE FONDO (Un morado sobrio tipo académico)
+    foreground: "light"
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: equipo.qmd
+        text: Equipo
+    right:
+      - icon: instagram
+        href: https://www.instagram.com/epigest.talca/
+      - icon: envelope
+        href: "mailto:msotocabezas@gmail.com"
+
+format:
+  html:
+    theme: Journal
+    css: styles.css
+    toc: false          # <--- Cambia esto de true a false
+    page-layout: full   # <--- Opcional: si quieres que todo el sitio sea ancho
