@@ -183,7 +183,7 @@ format:
 
 <div class="team-card">
 <img src="images/equipo/rodrigo_torres.png" alt="Rogrigo Torres">
-<h3 class="member-name">Rogrigo Torres </h3>
+<h3 class="member-name">Rodrigo Torres </h3>
 <p class="member-inst">Estudiante Técnologia Medica</p>
 </div>
 
@@ -215,7 +215,6 @@ format:
 <img src="images/equipo/felipe_varas.png" alt="Felipe Varas">
 <h3 class="member-name">Felipe Varas Concha, PhD</h3>
 <p class="member-role">Ingeniero</p>
-<a href="https://cl.linkedin.com/in/felipe-gallardo-altamirano-7406b4271" class="profile-btn" target="_blank">LinkedIn</a>
 </div>
 
 <div class="team-card">
