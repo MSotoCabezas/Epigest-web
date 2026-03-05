@@ -30,8 +30,8 @@ El reclutamiento de voluntarias se realiza en colaboración con los Centros de S
 :::
 
 ```{=html}
-<nav class="epigest-mobile-nav">
-  <a href="index.html" class="active">   <!-- ← "active" solo en index -->
+<nav class="epigest-mobile-nav" id="epigest-mobile-nav">
+  <a href="index.html">
     <i class="bi bi-house-fill"></i>
     <span>Inicio</span>
     <div class="epigest-dot"></div>
@@ -57,4 +57,21 @@ El reclutamiento de voluntarias se realiza en colaboración con los Centros de S
     <div class="epigest-dot"></div>
   </a>
 </nav>
+
+<script>
+(function () {
+  // Marcar el link activo según la página actual
+  var current = window.location.pathname.split('/').pop() || 'index.html';
+  if (current === '' || current === '/') current = 'index.html';
+  var links = document.querySelectorAll('#epigest-mobile-nav a');
+  links.forEach(function(a) {
+    var href = a.getAttribute('href');
+    if (href && current && href !== '' && !href.startsWith('http') && !href.startsWith('mailto')) {
+      if (href === current || (current === '' && href === 'index.html')) {
+        a.classList.add('active');
+      }
+    }
+  });
+})();
+</script>
 ```
