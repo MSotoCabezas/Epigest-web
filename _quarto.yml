@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "EpiGest Talca"
+  title: "EpiGest-Talca"
   repo-url: https://github.com/MSotoCabezas/Epigest-web/blob/main/_quarto.yml
   description: "Estudio de Cohorte sobre el impacto del ambiente en el embarazo"
   favicon: images/logos/logosinletras.png
@@ -14,7 +14,7 @@ website:
 
   page-footer: 
     background: "#F6F5F3"
-    center: "© 2026 Epigest-Talca" 
+    center: "© 2026 EpiGest-Talca" 
   
   navbar:
     title: false
